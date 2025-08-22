@@ -1,7 +1,7 @@
-for i in range(1, 17+1):
-    if i % 3 == 0:
+for j in range(3, 16+1):
+    if j % 3 == 0:
         print('fizz')
-    elif i % 5 == 0:
+    elif j % 5 == 0:
         print('buzz')
     else: 
-        print(i)
+        print(j)
